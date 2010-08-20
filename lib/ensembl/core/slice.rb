@@ -349,7 +349,7 @@ module Ensembl
           end
 
           if self.strand == -1
-      	    @seq.reverse_complement!
+      	    @seq.complement!
           end
 
         end
